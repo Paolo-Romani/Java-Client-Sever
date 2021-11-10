@@ -1,4 +1,15 @@
 # Java-Client-Sever
-Server che accetta un solo client
+Server:
+- Accetta piu' connessioni dal client
+- Stampa a video il messaggio ricevuto
+- Risponde con OK al client
 
-Esempio di implementazione di un'applicazione Client-Server in cui il server gestisce un solo client alla volta.
+ESEMPIO
+Server in attesa di un client
+Client connessio: Socket[addr=/127.0.0.1,port=61107,localport=5555]
+Messaggio dal client /127.0.0.1 - ciapCancel changes
+Server in attesa di un client
+Client connessio: Socket[addr=/127.0.0.1,port=61110,localport=5555]
+Messaggio dal client /127.0.0.1 - hola
+Messaggio dal client /127.0.0.1 - exit
+Messaggio dal client /127.0.0.1 - exit
